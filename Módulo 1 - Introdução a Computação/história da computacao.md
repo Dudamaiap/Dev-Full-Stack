@@ -2,9 +2,6 @@
 
 **Curso**: Formação Desenvolvedor Full Stack Júnior – +Prati & Codifica
 
-![Banner](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/ENIAC_%28Penn_Archives%29.jpg/800px-ENIAC_%28Penn_Archives%29.jpg)  
-_ENIAC – Primeiro computador de uso geral_
-
 ## 👨‍🏫 Professor
 
 **Jaques Antunes**  
@@ -20,8 +17,6 @@ Mestrando em Engenharia da Computação – UFRGS
 ### 📍 Ábaco (3000-2000 A.C.)
 
 Ferramenta ancestral para cálculos simples como soma e subtração.
-
-![Ábaco](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Suanpan.jpg/320px-Suanpan.jpg)
 
 ### 📍 Máquinas Mecânicas
 
@@ -50,8 +45,6 @@ Primeiros computadores eletromecânicos com relés e lógica binária.
 - 20 registradores, 6.000 chaves, consumia 150 kW.
 - Executava 5000 operações por segundo.
 
-![ENIAC](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Eniac.jpg/800px-Eniac.jpg)
-
 ---
 
 ## 🧠 Arquitetura de Von Neumann
@@ -79,11 +72,7 @@ Primeiro computador transistorizado. Realizava 1 milhão de operações por segu
 
 ### 🔧 Circuitos Integrados (Chips)
 
-Permitem computadores modernos serem pequenos e poderosos.
-
-![Chip](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/IC-Chip.jpg/320px-IC-Chip.jpg)
-
----
+## Permitem computadores modernos serem pequenos e poderosos.
 
 ## 💡 Como o Computador Funciona
 
@@ -105,5 +94,3 @@ Permitem computadores modernos serem pequenos e poderosos.
 ### 🌈 Cores
 
 - Representadas com a combinação **RGB** (Red, Green, Blue)
-
-![RGB](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/RGB_illumination.jpg/320px-RGB_illumination.jpg)
