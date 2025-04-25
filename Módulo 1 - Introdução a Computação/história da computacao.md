@@ -31,7 +31,7 @@ Desenvolvida por **George Boole** (1854), fundamental para os circuitos digitais
 
 ## ⚙️ Primeiros Computadores
 
-### 🧠 Zuse Z2 e Z3
+### 🧠 Zuse Z2 e Z3 
 
 Primeiros computadores eletromecânicos com relés e lógica binária.
 

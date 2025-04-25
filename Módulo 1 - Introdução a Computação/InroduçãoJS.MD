@@ -44,5 +44,73 @@ Tudo no computador faz parte do conjunto de Entrada -> Processamento -> Saída
 4. **Exemplos**  
    - Python, Ruby, JavaScript, PHP
 
+### Baixo Nível vs Alto Nível 
+**Baixo Nível**: Próximas ao hardware, difíceis para humanos entenderem.
+
+**Alto Nível**: Voltadas para humanos, com sintaxe estruturada e legível.
+
 # O que é um algoritmo?
+
+Um algoritmo é uma sequência finita de instruções ou passos bem definidos que são seguidos para realizar uma tarefa ou resolver um problema. Ele descreve um processo lógico que transforma uma entrada (dados) em uma saída (resultado), de maneira clara e eficiente. 
+
+## Lógica
+**Definição**: Estudo do pensamento e ordenação de ideias.
+
+**Exemplo**: Todo mamífero é um animal; todo cavalo é mamífero; logo, todo cavalo é animal.
+
+## Métodos para Construção de um bom algoritmo
+   - Ler atentamente o enunciado; 
+   - Retirar do enunciado as entradas de dados;
+   - Retirar do enunciado as saídas de dados;
+   - Determinar o que dever ser feito para transformar as entradas determinadas nas saídas especificadas.
+
+# Variáveis
+### Características:
+
+Nome único.
+
+Tipo de dado associado;
+
+Conteúdo armazenado;
+
+Endereço na memória;
+
+### Regras de Nomeação:
+
+Começar com letra;
+
+Seguir com letras/números;
+
+Sem caracteres especiais, exceto underline;
+
+Não pode ser uma palavra reservada.
+
+### Tipos de Dados em JavaScript
+
+**STRING**: Cadeia de caracteres.
+
+**NUMBER**: Valores numéricos (inteiros ou reais).
+
+**BOOLEAN**: Verdadeiro ou falso.
+
+**UNDEFINED e NULL**: Indefinido e nulo.
+
+## Operadores
+### Operadores Relacionais:
+
+==, !=, >, <, >=, <=, ===, !==.
+
+### Operadores Lógicos:
+
+&& (E), || (Ou), ! (Não).
+
+## Estruturas de Controle: Condicionais
+
+Definição: Impõem condições à sequência do algoritmo.
+
+### Tipos:
+
+- Condicional simples.
+- Condicional composta.
+- Estrutura de seleção switch-case.
 
