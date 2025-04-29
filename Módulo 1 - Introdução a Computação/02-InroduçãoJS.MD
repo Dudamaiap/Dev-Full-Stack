@@ -87,22 +87,40 @@ Não pode ser uma palavra reservada.
 
 ### Tipos de Dados em JavaScript
 
-**STRING**: Cadeia de caracteres.
-
-**NUMBER**: Valores numéricos (inteiros ou reais).
-
-**BOOLEAN**: Verdadeiro ou falso.
-
-**UNDEFINED e NULL**: Indefinido e nulo.
+|**Tipo de dado** | Significado 
+|------------|----------------------|
+| **STRING** | Cadeia de caracteres |
+| **NUMBER** | Valores numéricos (inteiros ou reais) |
+| **BOOLEAN** | Verdadeiro ou falso |
+| **UNDEFINED e NULL** | Indefinido e nulo |
 
 ## Operadores
+
+### Operadores matemáticos 
+ 
 ### Operadores Relacionais:
 
-==, !=, >, <, >=, <=, ===, !==.
+| Operador | Significado                                |
+|----------|--------------------------------------------|
+| `==`     | Igual a (compara apenas o valor)           |
+| `!=`     | Diferente de (compara apenas o valor)      |
+| `>`      | Maior que                                  |
+| `<`      | Menor que                                  |
+| `>=`     | Maior ou igual a                           |
+| `<=`     | Menor ou igual a                           |
+| `===`    | Estritamente igual (valor e tipo)          |
+| `!==`    | Estritamente diferente (valor e tipo)      |
+
+
 
 ### Operadores Lógicos:
 
-&& (E), || (Ou), ! (Não).
+| Operador | Significado |
+|----------|-------------|
+| `&&`     | E \(AND\)   |
+| `\|\|`   | Ou \(OR\)   |
+| `!`      | Não \(NOT\) |
+
 
 ## Estruturas de Controle: Condicionais
 
