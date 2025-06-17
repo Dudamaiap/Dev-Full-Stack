@@ -62,4 +62,55 @@ console.log(`b) Número de reprovados na turma D: ${reprovadosD}`)
 console.log(`c) Porcentagem total de reprovados: ${percTotalReprovados.toFixed(2)}%`)
 ```
 
-## 04. Faça um 
+## 04. Faça um programa que leia o dia da semana. Esse dia deve ser um texto. Se for sábado ou domingo imprimir "Final de smeana", senão imprimir "Dia Util".
+
+```javascript
+    const prompt = require('prompt-sync')()
+
+    let dia = prompt(Insira o dia da semana: ) 
+
+    if (dia='Sábado' || 'Domingo'){
+        print('Final de Semana!')
+    }else{
+        print('Dia útil!')
+    }
+```
+
+## 05. Escreva um algoritmo para repetir a leitura de um número enqunato o vlaor fornecido for diferente de 0. Para cada número fornecido, imprimir se ele é NEGATIVO ou POSITIVO. Quando o númeor 0 for fornecido a repetição deve ser encerrada sem impirmir mensagem alguma
+
+```javascript
+const prompt = require('prompt-sync')();
+
+let numero;
+
+do {
+  numero = parseFloat(prompt("Digite um número (0 para sair): "));
+
+  if (numero > 0) {
+    console.log("POSITIVO");
+  } else if (numero < 0) {
+    console.log("NEGATIVO");
+  }
+// Quando número for 0, não imprime nada e sai do loop
+} while (numero !== 0);
+
+```
+
+## 06. Escreva um algoritmo para repetir a leitura de uma senaha até que ela seja válida. Para cada leitura da senha incorreta informada escrever a mensagem "SENHA INVÁLIDA". Quando a senha for informada corretamente deve ser impressa a mensagem 'ACESSO PERMITIDO" e o algoritmo encerrado. Considere que a senha correta é o valor 2807.
+
+```javascript 
+const prompt = require('prompt-sync')();
+
+const senhaCorreta = 2807;
+let senhaDigitada;
+
+do {
+  senhaDigitada = parseInt(prompt("Digite a senha: "));
+
+  if (senhaDigitada !== senhaCorreta) {
+    console.log("SENHA INVÁLIDA");
+  }
+} while (senhaDigitada !== senhaCorreta);
+
+console.log("ACESSO PERMITIDO");
+```
