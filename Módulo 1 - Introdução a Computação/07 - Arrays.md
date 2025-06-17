@@ -22,5 +22,26 @@ Para percorrer o Array
  for(let i = 0; i < frutas.lenght; i++){
     console.table(frutas[i]) //.table é para mostrar em formato de tabela no console
  }
-
  ```
+
+### Como adicionar e remover valores?
+#### Adicionar no final:
+```javascript
+frutas.push("uva");
+```
+
+#### Remover do final:
+
+```javascript
+frutas.pop();
+```
+
+#### Adicionar no começo:
+```javascript
+frutas.unshift("abacaxi");
+
+```
+#### Remover do começo:
+```javascript
+frutas.shift();
+```
