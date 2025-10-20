@@ -1,19 +1,10 @@
-// Criação do array com 10 números
-const numeros = [12, 5, 8, 21, 4, 18, 7, 10, 3, 6];
+   function somaArray(array){
+        return array.reduce(function(total,valor){
+            return total + valor
+        }, 0)
+    }
 
-// Cálculo da soma com reduce
-const soma = numeros.reduce((acumulador, valorAtual) => acumulador + valorAtual, 0);
+    let numeros = [5,2,9,1,3]
+    let resultado = somaArray(numeros)
 
-// Cálculo da média
-const media = soma / numeros.length;
-
-// Filtragem dos números pares
-const pares = numeros.filter(numero => numero % 2 === 0);
-
-// Impressão dos resultados
-console.log("Array original:")
-console.table(numeros)
-console.log("Soma:", soma)
-console.log("Média:", media)
-console.log("Números pares:")
-console.table(pares)
+    console.log("Soma dos elementos", resultado)
