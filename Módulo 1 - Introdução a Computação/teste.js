@@ -1,10 +1,12 @@
-   function somaArray(array){
-        return array.reduce(function(total,valor){
-            return total + valor
-        }, 0)
+function maior(numero){
+    let maior = array[0]
+
+    for(let i=0; i < array.length; i++){
+        if(array[i] > maior){
+            maior = array[i]
+        }
     }
-
-    let numeros = [5,2,9,1,3]
-    let resultado = somaArray(numeros)
-
-    console.log("Soma dos elementos", resultado)
+    return maior
+    
+    }
+console.log(maior([2, 3, 6, 7, 10, 1])) // 10
