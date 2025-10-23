@@ -32,7 +32,57 @@
         {titulo: "Poderoso chefão", genero: "Máfia"},
         {titulo: "Batman", genero "Herói"},
 ]
-    movies.forEach(element => {
-        console.log(element)
-    });
+
+let contagemGenero = {}
+
+    filmes.forEach(filme => {
+        if(contagemGenero[filme.genero]){
+            contagemGenero[filme.genero]++
+            else{
+                contagemGenero[filme.genero] = 1
+            }
+        }
+});
+
+console.table(contagemGenero)
+
+for(let genero in contagemGenero){
+    console.log('Existem ${contagemGenero[genero]} filme (s) do genero ${genero}')
+}
+```
+03. Calcular o fatorial de um número 
+
+```javascript 
+
+    function calcularFatorial(numero){
+        let fatorial = 1
+        for(let i = 1; i<= numero; i++){
+            fatorial = fatorial * i
+        }
+
+        console.log(fatorial)
+    }
+
+    calcularFatorial(5)
+```
+
+04. Imprima os dez primeiros números da sequência de Fibonacci
+
+```javascript
+
+    function fibonacci(){
+        let a = 0, b = 1, temp
+        console.log(a)
+        console.log(b)
+
+        for(let i = 3; i<=10; i++){
+            temp = a + b
+            console.log(temp)
+            a = b
+            b = temp
+        }
+    }
+
+    fibonacci()
+
 ```
