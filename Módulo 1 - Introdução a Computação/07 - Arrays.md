@@ -173,7 +173,4 @@ console.log(`O maior número é: ${maiorNumero}`); // Saída: O maior número é
 
 ```
 
----
 
-Quer que eu adicione uma seção final com **resumo e boas práticas** sobre vetores também? Isso deixaria o material mais completo para estudos.
-```

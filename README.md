@@ -30,8 +30,8 @@ A **Trilha Dev. Full Stack Jr. 2025** tem duração de abril a dezembro e é com
 
 | Módulo   | Conteúdo                        | Status          |
 | -------- | ------------------------------- | --------------- |
-| Módulo 1 | Algoritmos e Estrutura de Dados | 🟩 Em andamento |
-| Módulo 2 | Front-End Web + Git             | ⬜ A iniciar    |
+| Módulo 1 | Algoritmos e Estrutura de Dados | 🟩 Concluído    |
+| Módulo 2 | Front-End Web + Git             | 🟩 Em andamento |
 | Módulo 3 | React                           | ⬜ A iniciar    |
 | Módulo 4 | Java + Spring                   | ⬜ A iniciar    |
 | Módulo 5 | Back-end API + Banco de Dados   | ⬜ A iniciar    |
