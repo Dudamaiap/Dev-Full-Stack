@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Formulários em HTML</title>
+    <style>
+         body {
+            font-family: Patrick Hand, cursive;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.8);
+
+        }
+        h2{
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="form-container" >
+        <h2>Cadastro do usuário</h2>
+       <form >
+        <label>Nome completo:</label>
+        <input type="text" placeholder="Digite seu nome completo:">
+        <br>
+        <label>Email:</label>
+        <input type="email" placeholder="Digite seu email:">
+        <br>
+        <label>Senha:</label>
+        <input type="password" placeholder="Digite sua senha:">
+        <br>
+        <label>Gênero: </label>
+        <label for="male">
+            <input type="radio" value="male" name="gender">Masculino</label>
+        <label>
+        <label for="female">
+            <input type="radio" value="female" name="gender">Feminino</label>
+        <label>
+
+        <label for="other">
+            <input type="radio" value="other" name="gender">Outro</label>
+        <label>
+        <br>
+        <label for="terms">
+            <input type="checkbox" name="terms" required> Aceito os termos e condições
+        </label>
+        <br>
+        <label for="city">Cidade: </label>
+        <select name="city">
+            <option value="rs">Jaguarão</option>
+            <option value="mt">Cuiabá</option>
+            <option value="df">Brasília</option>
+            <option value="rs">Porto Alegre</option>
+        </select>
+        <br>
+        <label for="message">Mensagem:</label>
+        <textarea name="message" rows="4" placeholder="Deixe uma mensagem"></textarea>
+        <br>
+        <button type="submit">Cadastrar</button>
+       </form>
+
+    </div>
+</body>
+</html>
