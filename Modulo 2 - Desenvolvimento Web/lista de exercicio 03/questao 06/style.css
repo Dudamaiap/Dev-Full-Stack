@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px;
+}
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /*permite que os itens quebrem a linha*/
+    min-height: 100vh;
+}
+
+.galeria{
+    display: grid; /*define que o container sera um grid uma espécie de tabela*/
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 15px; /*espaçamento entre os itens do grid*/
+    width: 80%;
+    max-width: 1200px;
+}
+
+figure{
+    background: white;
+    border-radius: 8px;
+    overflow: hidden; /* isso aqui faz o conteudo se esconder caso ultrapasse o tamanho do container */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 0;
+}
+
+img{
+    width: 100%; /*faz a imagem ocupar toda a largura do container*/
+    height: 200px;
+    object-fit: cover; /*faz a imagem se ajustar ao container sem distorcer*/
+}
+
+figcaption{
+    padding: 8px;
+    font-weight: bold;
+}
+/* Responsividade */
+@media (max-width: 900px) {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr); /*2 colunas em telas menores*/
+    }
+}
+
+@media (max-width: 500px) {
+    .galeria {
+        grid-template-columns: 1fr; /*1 coluna em telas muito pequenas*/
+    }
+}
+
+img{
+    height: 150px;
+}

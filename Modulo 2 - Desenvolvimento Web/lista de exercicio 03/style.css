@@ -4,6 +4,7 @@ index.html:
 <main> e <footer>.
 - Para cada uma dessas seções, aplique margin, padding e border de forma a
 evidenciar seus contornos.*/
+/* ESTÁ VINCULADO AO INDEX.HTML */
 
 header {
     background-color: #4CAF50; 
@@ -47,4 +48,8 @@ h2 {
 .destaque {
     font-style: italic;
     background-color: #ffffcc; 
+}
+
+#importante {
+    border-top: 5px solid red; 
 }
