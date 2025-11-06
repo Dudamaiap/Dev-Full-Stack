@@ -1,17 +1,17 @@
-# Meu Perfil Pessoal 🌐
+# Meu Perfil Pessoal 
 
 Este projeto é uma página de perfil desenvolvida para o módulo de Desenvolvimento Web.
 
-### ✨ Objetivo
+### Objetivo
 Aplicar conceitos de **HTML5 semântico** e **CSS moderno** (Flexbox, Grid e responsividade).
 
-### 🧠 Conteúdo
+###  Conteúdo
 - Estrutura semântica (header, main, section, footer, etc.)
 - Layout responsivo
 - Uso de variáveis CSS, pseudo-classes e pseudo-elementos
 - Fontes do Google Fonts e favicon personalizado
 
-### 🚀 Tecnologias
+###  Tecnologias
 - HTML5
 - CSS3
 
