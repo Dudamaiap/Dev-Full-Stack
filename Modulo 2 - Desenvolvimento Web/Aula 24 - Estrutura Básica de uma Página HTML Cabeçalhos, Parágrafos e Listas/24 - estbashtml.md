@@ -2,7 +2,11 @@
 
 ## O que é HTML
 
-HTML é um acrônimo para Hypertext (hipertexto) Markup (marcação) Language (linguagem), ela não é uma linguagem de programação em si, porém é uma linguagem na forma de escrever, tendo sintaxe e semântica, Hypertext é uma marcação especifica que nos leva a outro texto, isso mais no passado, agora sendo relacionado a imagens, a videos. Bastante simples usar o HTML, podemos ver ele clicando com o botão direito na pagina e selecionar a opção "view Page Source". Agora vamos ver mais sobre o HTML.
+HTML é um acrônimo para HyperText Markup Language (Linguagem de Marcação de Hipertexto). Ele não é uma linguagem de programação propriamente dita, mas sim uma linguagem de marcação utilizada para estruturar conteúdos na web, possuindo sintaxe e semântica próprias.
+
+O termo hypertext refere-se a uma marcação específica que permite a navegação entre diferentes textos por meio de links (muito comum no passado) e que hoje se estende também a imagens, vídeos e outros tipos de mídia.
+
+O HTML é relativamente simples de usar. Podemos visualizar seu código clicando com o botão direito do mouse em uma página da web e selecionando a opção “View Page Source” (ou “Exibir código-fonte da página”). 
 
 ## Estrutura do Documento  
 O arquivo segue o modelo padrão de um documento HTML5:  
@@ -22,6 +26,8 @@ O arquivo segue o modelo padrão de um documento HTML5:
 * `<html lang="en">`: Define o idioma da página.
 * `<head>`: Contém metadados (charset, viewport, título).
 * `<body>`: Contém todo o conteúdo visível da página.
+
+  
 
 ## Cabeçalho (`<header>`)
 
@@ -81,6 +87,48 @@ Criação de uma tabela para catálogo de produtos, utilizando:
         <td>R$ 100,00</td>
     </tr>
 </table>
+```
+### Resultado :
+| Produto     | Descrição                     | Preço     |
+|-------------|--------------------------------|-----------|
+| Smartphone  | Modelo com tela AMOLED 5"      | R$ 100,00 |
+
+### Como adicionar mais linhas?
+Para adicionar mais conteúdo é só criar novos blocos `<tr>` com `<td>` dentro 
+```HTML
+<tr>
+    <td>Novo Produto</td>
+    <td>Descrição do produto</td>
+    <td>R$ 00,00</td>
+</tr>
+
+```
+
+Em tabelas maiores, é recomendado usar `<thead>` e `<tbody>` para organizar melhor o código
+
+```HTML
+    <table>
+    <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Smartphone</td>
+            <td>Modelo com tela AMOLED 5"</td>
+            <td>R$ 100,00</td>
+        </tr>
+        <tr>
+            <td>Notebook</td>
+            <td>Notebook com 8GB de RAM</td>
+            <td>R$ 2.500,00</td>
+        </tr>
+    </tbody>
+</table>
+
 ```
 
 ## Seção de Formulário (`<form>`)
