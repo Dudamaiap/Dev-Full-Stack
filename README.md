@@ -1,214 +1,372 @@
-# 🚀 Trilha Dev. Full Stack Jr. 2025 | +PraTI & Codifica
+# 🚀 Formação Desenvolvedor Full Stack Junior 2026 | +praTI & Codifica
 
-Bem-vindo(a) ao meu repositório de estudos da **Trilha Dev. Full Stack Jr. 2025**, uma iniciativa gratuita de formação oferecida pela [Codifica](https://codifica.org) e pelo projeto social [MaisPraTI](https://maisprati.com.br).
-
-Este espaço é dedicado ao registro do meu processo de aprendizado, desafios, tarefas e projetos desenvolvidos ao longo do curso — da lógica de programação ao deploy de uma aplicação fullstack com inteligência artificial. 🌐🤖
-
----
-
-## 🎯 Objetivos deste Repositório
-
-- 📘 Documentar meu aprendizado e progresso.
-- 🔍 Facilitar revisões futuras.
-- 💡 Consolidar conhecimentos com projetos e práticas.
-- 💼 Apresentar meu portfólio para oportunidades na área.
+![Status](https://img.shields.io/badge/Status-Em%20Andamento-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow)
+![React](https://img.shields.io/badge/React-19-blue)
+![Java](https://img.shields.io/badge/Java-21-red)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-green)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![License](https://img.shields.io/badge/Licença-Educacional-lightgrey)
 
 ---
 
-## 🧠 Sobre o Curso
+# 📖 Sobre
 
-A **Trilha Dev. Full Stack Jr. 2025** tem duração de abril a dezembro e é composta por 6 módulos:
+Este repositório documenta minha jornada na **Formação Desenvolvedor Full Stack Junior 2026**, promovida pela **+praTI** e **Codifica**.
 
-1. Algoritmos e Estrutura de Dados com JavaScript
-2. Desenvolvimento Front-End com HTML, CSS e JavaScript
-3. React.js
-4. Fundamentos de Java e Spring Boot
-5. Desenvolvimento Backend com Spring e Banco de Dados
-6. DevOps e IA com Python
+O objetivo deste espaço é registrar meu progresso durante a formação, armazenar atividades, exercícios, desafios, projetos e servir como portfólio para futuras oportunidades profissionais na área de tecnologia.
 
-## ✅ Progresso
+Ao longo da trilha serão abordados conteúdos de:
 
-| Módulo   | Conteúdo                        | Status          |
-| -------- | ------------------------------- | --------------- |
-| Módulo 1 | Algoritmos e Estrutura de Dados | 🟩 Concluído    |
-| Módulo 2 | Front-End Web + Git             | 🟩 Em andamento |
-| Módulo 3 | React                           | ⬜ A iniciar    |
-| Módulo 4 | Java + Spring                   | ⬜ A iniciar    |
-| Módulo 5 | Back-end API + Banco de Dados   | ⬜ A iniciar    |
-| Módulo 6 | DevOps + IA com Python          | ⬜ A iniciar    |
+- Algoritmos e Estruturas de Dados
+- Desenvolvimento Web
+- React
+- Java
+- Spring Boot
+- Banco de Dados Relacionais
+- DevOps
+- Inteligência Artificial com Python
 
 ---
 
-## 🧾 Conteúdo Programático
+# 🎯 Objetivos
 
-### 📍 Módulo 1 – Introdução à Ciência da Computação
-
-| Aula | Descrição                                                           |
-| ---- | ------------------------------------------------------------------- |
-| 1    | História da Computação                                              |
-| 2    | Como os Computadores Funcionam: Hardware e Software                 |
-| 3    | Introdução à Programação: Linguagem EcmaScript/JavaScript           |
-| 4    | Variáveis, Tipos de Dados e Operadores em JavaScript                |
-| 5    | Estruturas de Controle: Condicionais (if, else, switch)             |
-| 6    | Estruturas de Controle: Laços de Repetição (for, while, do...while) |
-| 7    | Introdução às Estruturas de Dados: Arrays Unidimensionais           |
-| 8    | Manipulação de Arrays: Arrays Bidimensionais                        |
-| 9    | Funções em JavaScript: Definição e Chamadas                         |
-| 10   | Funções Avançadas: Escopo, Retorno e Procedimentos                  |
-| 11   | Objetos em JavaScript: Criação e Manipulação                        |
-| 12   | Depuração e Ferramentas de Desenvolvimento (Debugging)              |
-| -    | 🔹 Tarefa 1                                                         |
-| 13   | Recursividade: Conceito e Exemplos em JavaScript                    |
-| 14   | Estruturas de Dados: Pilhas (Stacks)                                |
-| 15   | Estruturas de Dados: Filas e Deques (Queues e Deques)               |
-| 16   | Listas Ligadas (Linked Lists): Conceito e Implementação             |
-| 17   | Árvores I: Estrutura e Operações Básicas                            |
-| 18   | Árvores II: Árvores Binárias de Busca (BST)                         |
-| 19   | Algoritmos de Ordenação: Bubble, Selection e Insertion Sort         |
-| 20   | Algoritmos de Busca: Busca Linear e Binária                         |
-| -    | 🔹 Tarefa 2                                                         |
+- 📚 Consolidar conhecimentos em desenvolvimento de software
+- 💻 Desenvolver projetos práticos
+- 🚀 Construir um portfólio profissional
+- 🔍 Documentar minha evolução técnica
+- 🤝 Compartilhar conhecimento e experiências
 
 ---
 
-### 📍 Módulo 2 – Desenvolvimento Web: Front-End e Controle de Versão
+# 📊 Progresso da Formação
 
-| Aula | Descrição                                    |
-| ---- | -------------------------------------------- |
-| 1    | Introdução ao Versionamento com Git e GitHub |
-| 2    | Comandos Básicos de Git: Commit, Push e Pull |
-| 3    | Colaboração em Projetos com Git e GitHub     |
-| 4    | Introdução ao Desenvolvimento Web            |
-| 5    | Estrutura Básica de uma Página HTML          |
-| 6    | Formulários e Inputs                         |
-| 7    | Links, Imagens e Mídia em HTML               |
-| -    | 🔹 Tarefa 3                                  |
-| 8    | CSS: Seletores e Propriedades                |
-| 9    | Box Model e Posicionamento                   |
-| 10   | Flexbox                                      |
-| 11   | Grid Layout                                  |
-| 12   | CSS Responsivo e Media Queries               |
-| 13   | JavaScript no Front-End                      |
-| 14   | Manipulação de DOM                           |
-| 15   | Eventos e Interatividade                     |
-| 16   | Validação de Formulários                     |
-| 17   | Testes com Jest                              |
-| 18   | Consumo de APIs com Fetch                    |
-| 19   | Projeto Final – Parte 1                      |
-| 20   | Projeto Final – Parte 2                      |
-| -    | 🔹 Tarefa 4                                  |
+| Módulo | Conteúdo | Status |
+|---------|---------|---------|
+| 01 | Introdução à Ciência da Computação | ✅ Concluído |
+| 02 | Frontend Essencial e Controle de Versão | 🔄 Em Andamento |
+| 03 | Desenvolvimento Web com React | ⏳ Não Iniciado |
+| 04 | Java e Ecossistema Spring | ⏳ Não Iniciado |
+| 05 | Backend e Banco de Dados | ⏳ Não Iniciado |
+| 06 | DevOps e IA com Python | ⏳ Não Iniciado |
 
 ---
 
-### 📍 Módulo 3 – Desenvolvimento Web com React
+# 🧠 Estrutura da Formação
 
-| Aula | Descrição                                      |
-| ---- | ---------------------------------------------- |
-| 1    | Introdução ao React e Configuração do Ambiente |
-| 2    | Componentes Funcionais                         |
-| 3    | Props e Composição                             |
-| 4    | useState                                       |
-| 5    | Eventos e Atualização de Estado                |
-| 6    | useEffect                                      |
-| 7    | Context API                                    |
-| 8    | Listas e Chaves                                |
-| 9    | Formulários e Inputs                           |
-| 10   | Consumo de APIs RESTful                        |
-| 11   | React Router                                   |
-| 12   | CSS Modules                                    |
-| 13   | Styled Components                              |
-| 14   | Boas Práticas no Projeto                       |
-| 15   | Custom Hooks                                   |
-| 16   | Testes com React Testing Library               |
-| 17   | Projeto SPA – Parte 1                          |
-| 18   | Projeto SPA – Parte 2                          |
-| 19   | Projeto SPA – Parte 3                          |
-| 20   | Deploy com Vercel                              |
-| -    | 🔹 Tarefa 5                                    |
+## 📌 Módulo 01 — Introdução à Ciência da Computação
 
----
+### Conteúdos
 
-### 📍 Módulo 4 – Fundamentos de Java e Spring
+- História da Computação
+- Funcionamento dos Computadores
+- Introdução ao JavaScript
+- Estruturas Condicionais
+- Estruturas de Repetição
+- Arrays
+- Matrizes
+- Funções
+- Objetos
+- Listas
+- Filas
+- Pilhas
+- Árvores
 
-| Aula | Descrição                                  |
-| ---- | ------------------------------------------ |
-| 1    | Introdução ao Java e Ambiente              |
-| 2    | Variáveis, Tipos e Operadores              |
-| 3    | Estruturas de Controle                     |
-| 4    | Arrays Uni e Bidimensionais                |
-| 5    | Métodos, Classes e Interfaces              |
-| 6    | Abstração, Encapsulamento, Modificadores   |
-| 7    | Herança e Polimorfismo                     |
-| 8    | Estruturas de Dados: Listas, Pilhas, Filas |
-| -    | 🔹 Tarefa 6                                |
-| 9    | Exceções e Erros                           |
-| 10   | Spring Framework                           |
-| 11   | Projeto com Spring Boot                    |
-| 12   | Beans e Componentes                        |
-| 13   | Controllers e Services                     |
-| 14   | Arquivos de Propriedades                   |
-| 15   | Bean Validation                            |
-| 16   | Threads e Concorrência                     |
-| 17   | Trabalhando com Arquivos                   |
-| 18   | Upload e Download                          |
-| 19   | Testes com JUnit e Mockito                 |
-| 20   | Boas Práticas com Spring                   |
-| -    | 🔹 Tarefa 7                                |
+### Atividades
+
+- ✅ Tarefa 1 – Lógica de Programação Básica
+- ✅ Tarefa 2 – Lógica de Programação com JavaScript
+- ✅ Tarefa 3 – Estruturas de Dados com JavaScript
 
 ---
 
-### 📍 Módulo 5 – Backend com Spring & Bancos de Dados
+## 🌐 Módulo 02 — Desenvolvimento Web: Frontend Essencial e Controle de Versão
 
-| Aula | Descrição                                |
-| ---- | ---------------------------------------- |
-| 1    | Conceitos de Bancos de Dados Relacionais |
-| 2    | Modelagem de Dados                       |
-| 3    | Relacionamentos                          |
-| 4    | SQL: Criação de Tabelas                  |
-| 5    | Inserção, Atualização e Exclusão         |
-| -    | 🔹 Tarefa 8                              |
-| 6    | Normalização e Formas Normais            |
-| 7    | Consultas Avançadas                      |
-| 8    | Índices e Otimização                     |
-| 9    | Backend com Spring Boot                  |
-| 10   | Arquitetura MVC                          |
-| 11   | Endpoints RESTful                        |
-| 12   | JPA e Hibernate                          |
-| 13   | Relacionamentos no JPA                   |
-| 14   | JPQL, Native e Derived Queries           |
-| 15   | MySQL/PostgreSQL com Spring Boot         |
-| 16   | Spring Security                          |
-| 17   | JWT e Autorização                        |
-| 18   | OAuth2                                   |
-| 19   | Testes com JUnit e Mockito               |
-| 20   | API RESTful Completa                     |
+### Conteúdos
+
+- Git
+- GitHub
+- HTML5
+- CSS3
+- Box Model
+- Flexbox
+- CSS Grid
+- Responsividade
+- JavaScript no Frontend
+- DOM
+- Consumo de APIs
+
+### Atividades
+
+- ✅ Tarefa 4 – Página HTML Simples
+- 🔄 Tarefa 5 – Estilização com CSS
+- ⏳ Tarefa 6 – Página Web Completa
 
 ---
 
-### 📍 Módulo 6 – DevOps e IA com Python
+## ⚛️ Módulo 03 — Desenvolvimento Web com React
 
-| Aula | Descrição                              |
-| ---- | -------------------------------------- |
-| 1    | Introdução ao DevOps                   |
-| 2    | Git Flow e GitHub Flow                 |
-| 3    | Python: Sintaxe e Fundamentos          |
-| 4    | Listas, Dicionários, Tuplas            |
-| 5    | Condições e Laços                      |
-| 6    | Funções e Módulos                      |
-| 7    | CI/CD com GitHub Actions               |
-| 8    | Docker                                 |
-| 9    | Docker Compose                         |
-| 10   | Deploy Automatizado                    |
-| 11   | Conceitos de Inteligência Artificial   |
-| 12   | Ambiente de IA com Python              |
-| 13   | Scikit-Learn: Modelos Simples          |
-| 14   | APIs de IA                             |
-| 15   | Projeto Final: Deploy Fullstack com IA |
+### Conteúdos
+
+- React
+- Componentes
+- Props
+- useEffect
+- Context API
+- Eventos
+- Formulários
+- Consumo de APIs
+- React Router
+- CSS Modules
+- Tailwind CSS
+- Hooks Personalizados
+- Testes
+- Deploy com Vercel
+
+### Atividades
+
+- ⏳ Tarefa 7 – Componentes e Estado
+- ⏳ Tarefa 8 – Estado e Eventos
+- ⏳ Tarefa 9 – Desenvolvimento Completo de SPA
 
 ---
 
-## 💬 Contato
+## ☕ Módulo 04 — Fundamentos de Java e Ecossistema Spring
 
-Se quiser acompanhar minha jornada ou trocar experiências:
+### Conteúdos
 
-- GitHub: [@Dudamaiap](https://github.com/Dudamaiap)
-- LinkedIn: [Maria Eduarda Maia Pereira](https://www.linkedin.com/in/maria-eduarda-maia-pereira/)
+- Introdução ao Java
+- Estruturas de Controle
+- Arrays
+- Classes
+- Métodos
+- Encapsulamento
+- Interfaces
+- Herança
+- Polimorfismo
+- Estruturas de Dados
+- Exceções
+- Spring Framework
+- Spring Boot
+- Controllers
+- Services
+- Bean Validation
+- Threads
+- Manipulação de Arquivos
+- Testes
+
+---
+
+## 🗄️ Módulo 05 — Backend com Spring e Banco de Dados
+
+### Conteúdos
+
+- Banco de Dados Relacionais
+- Modelagem de Dados
+- SQL
+- Normalização
+- Consultas Avançadas
+- Spring Boot
+- API REST
+- JPA
+- Hibernate
+- Spring Security
+- JWT
+- OAuth2
+- Testes
+- Deploy
+
+---
+
+## 🤖 Módulo 06 — DevOps e Inteligência Artificial com Python
+
+### Conteúdos
+
+- DevOps
+- Docker
+- Docker Compose
+- CI/CD
+- GitHub Actions
+- Python
+- Estruturas de Dados
+- Machine Learning
+- GPT-2
+- Scikit-Learn
+- APIs de IA
+
+---
+
+# 📝 Tarefas da Formação
+
+| Tarefa | Descrição | Status |
+|---------|---------|---------|
+| 01 | Lógica de Programação Básica com JS | ✅ |
+| 02 | Lógica de Programação com JS | ✅ |
+| 03 | Estruturas de Dados com JS | ✅ |
+| 04 | Página HTML Simples | ✅ |
+| 05 | Estilização com CSS | 🔄 |
+| 06 | Página Web Completa | ⏳ |
+| 07 | Componentes e Estado | ⏳ |
+| 08 | Estado e Eventos | ⏳ |
+| 09 | Desenvolvimento Completo SPA | ⏳ |
+
+---
+
+# 🚀 Projeto Final
+
+Ao final da formação será desenvolvido um projeto Full Stack completo utilizando as tecnologias estudadas ao longo do curso.
+
+## Requisitos
+
+### Frontend
+
+- ReactJS
+- Interface Responsiva
+- UX/UI
+- Consumo de API
+
+### Backend
+
+- Spring Boot
+- API RESTful
+- Arquitetura MVC
+
+### Banco de Dados
+
+- PostgreSQL ou MySQL
+
+### Funcionalidades
+
+- CRUD Completo
+- Autenticação
+- Autorização
+- Controle de Acesso
+- Segurança
+- Tratamento de Erros
+
+### Qualidade
+
+- Testes Unitários
+- Documentação Técnica
+- Controle de Versão
+- Boas Práticas de Desenvolvimento
+
+### Metodologias
+
+- Scrum
+- Kanban
+- Git Flow
+
+---
+
+# 🛠️ Tecnologias
+
+## Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind" />
+</p>
+
+## Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=java,spring" />
+</p>
+
+## Banco de Dados
+
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,postgresql" />
+</p>
+
+## DevOps
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,docker" />
+</p>
+
+## Inteligência Artificial
+
+<p>
+<img src="https://skillicons.dev/icons?i=python" />
+</p>
+
+---
+
+# 📂 Estrutura do Repositório
+
+```text
+📦 dev-fullstack-2026
+│
+├── 📁 modulo-01-algoritmos
+│
+├── 📁 modulo-02-frontend
+│
+├── 📁 modulo-03-react
+│
+├── 📁 modulo-04-java-spring
+│
+├── 📁 modulo-05-backend-banco-dados
+│
+├── 📁 modulo-06-devops-ia
+│
+├── 📁 projetos
+│
+├── 📁 desafios
+│
+├── 📁 certificados
+│
+└── README.md
+```
+
+---
+
+# 📈 Estatísticas GitHub
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Dudamaiap&show_icons=true&theme=tokyonight"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dudamaiap&layout=compact&theme=tokyonight"/>
+
+</div>
+
+---
+
+# 🏆 Competências Desenvolvidas
+
+- Algoritmos
+- Estruturas de Dados
+- Programação Orientada a Objetos
+- Desenvolvimento Web
+- Desenvolvimento Frontend
+- Desenvolvimento Backend
+- APIs REST
+- Banco de Dados
+- Segurança de Aplicações
+- DevOps
+- Inteligência Artificial
+- Trabalho em Equipe
+- Metodologias Ágeis
+
+---
+
+# 📫 Contato
+
+### GitHub
+
+https://github.com/Dudamaiap
+
+### LinkedIn
+
+https://www.linkedin.com/in/maria-eduarda-maia-pereira/
+
+---
+
+<div align="center">
+
+### 🚀 Em constante evolução na jornada Full Stack!
+
+"Aprender, praticar e construir soluções que geram impacto."
+
+</div>
