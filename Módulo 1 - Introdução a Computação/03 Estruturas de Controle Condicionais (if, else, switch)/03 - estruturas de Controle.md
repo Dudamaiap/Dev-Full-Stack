@@ -1,4 +1,4 @@
-# Aula 04 - Estruturas de Controle (if, else, switch)
+# Aula 03 - Estruturas de Controle (if, else, switch)
 
 As **estruturas de controle** são usadas para tomar decisões e controlar o fluxo de execução do código com base em condições. Em JavaScript, as principais são:
 

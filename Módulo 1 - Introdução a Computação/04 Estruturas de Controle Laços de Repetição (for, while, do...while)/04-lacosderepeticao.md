@@ -1,4 +1,4 @@
-# Aula 05 - Estruturas de Controle: Laços de Repetição (for,while, do...while)
+# Aula 04 - Estruturas de Controle: Laços de Repetição (for,while, do...while)
 
 Os **laços de repetição** (ou loops) são usados para repetir um bloco de código várias vezes, até que uma condição seja satisfeita. 
 

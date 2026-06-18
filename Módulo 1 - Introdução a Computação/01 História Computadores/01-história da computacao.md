@@ -2,14 +2,6 @@
 
 **Curso**: Formação Desenvolvedor Full Stack Júnior – +Prati & Codifica
 
-## 👨‍🏫 Professor
-
-**Jaques Antunes**  
-Analista e Desenvolvedor de Sistemas – Centro Universitário Ritter dos Reis  
-Mestrando em Engenharia da Computação – UFRGS  
-[LinkedIn](https://www.linkedin.com/in/jaques-antunes)  
-📧 jaquesantunes@codificaedu.com.br
-
 ---
 
 ## 🕰️ Evolução Histórica dos Computadores

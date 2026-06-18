@@ -4,7 +4,7 @@ Tudo no computador faz parte do conjunto de Entrada -> Processamento -> Saída
 
 ## Linguagem Compilada x Interpretada
 
-### 1. Linguagem Compilada
+###   1. Linguagem Compilada
 
 1. **Processo de compilação**  
    - Antes de rodar o programa, você passa todo o código‑fonte por um **compilador**.  
