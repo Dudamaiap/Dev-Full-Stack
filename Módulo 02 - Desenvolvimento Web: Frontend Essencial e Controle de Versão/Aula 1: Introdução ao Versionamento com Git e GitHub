@@ -1,0 +1,296 @@
+# Aula 01 - Introdução ao Versionamento Git e GitHub
+
+## Objetivos da Aula
+
+Ao final desta aula você será capaz de:
+
+- Entender o que é Git.
+- Entender o que é GitHub.
+- Aprender os principais comandos do terminal.
+- Criar seu primeiro repositório Git.
+- Realizar o primeiro commit.
+
+
+
+# O que é Git?
+
+Git é um **Sistema de Controle de Versão (Version Control System - VCS)**.
+
+Seu objetivo é registrar todas as alterações feitas em um projeto ao longo do tempo.
+
+Com ele podemos:
+
+- Salvar versões do projeto;
+- Recuperar versões antigas;
+- Trabalhar em equipe;
+- Descobrir quem alterou determinado arquivo;
+- Desenvolver novas funcionalidades sem perder o código anterior.
+
+## Exemplo
+
+Imagine um jogo.
+
+Sempre que você salva o progresso, cria um "Save".
+
+O Git funciona exatamente dessa maneira.
+
+Cada **Commit** representa um novo "Save" do projeto.
+
+
+# O que é GitHub?
+
+GitHub é uma plataforma online que hospeda repositórios Git.
+
+Enquanto o Git funciona na sua máquina, o GitHub permite:
+
+- armazenar projetos na nuvem;
+- compartilhar código;
+- colaborar com outras pessoas;
+- criar um portfólio de projetos.
+
+## Diferença
+
+| Git | GitHub |
+|------|---------|
+| Sistema de controle de versão | Plataforma online |
+| Funciona localmente | Funciona na internet |
+| Guarda histórico do projeto | Hospeda repositórios |
+
+
+
+# Linha de Comando
+
+Antes de utilizar o Git precisamos conhecer alguns comandos do terminal.
+
+
+
+## cd
+
+Significa **Change Directory**.
+
+Serve para entrar em uma pasta.
+
+### Sintaxe
+
+```bash
+cd nome_da_pasta
+```
+
+### Exemplo
+
+```bash
+cd Documentos
+```
+
+
+## ls
+
+Significa **List**.
+
+Lista os arquivos e pastas existentes.
+
+### Sintaxe
+
+```bash
+ls
+```
+
+
+
+## mkdir
+
+Significa **Make Directory**.
+
+Cria uma nova pasta.
+
+### Sintaxe
+
+```bash
+mkdir MinhaPasta
+```
+
+### Exemplo
+
+```bash
+mkdir ProjetoGit
+```
+
+
+
+# Criando um Repositório Git
+
+## git init
+
+Inicializa um repositório Git na pasta atual.
+
+### Sintaxe
+
+```bash
+git init
+```
+
+Após executar esse comando será criada uma pasta oculta chamada:
+
+```text
+.git
+```
+
+Ela armazena:
+
+- histórico do projeto;
+- commits;
+- branches;
+- configurações do Git.
+
+
+
+# Verificando Alterações
+
+## git status
+
+Mostra o estado atual do projeto.
+
+### Sintaxe
+
+```bash
+git status
+```
+
+Ele informa:
+
+- arquivos modificados;
+- arquivos novos;
+- arquivos preparados para commit;
+- arquivos ainda não rastreados.
+
+
+
+# Adicionando Arquivos
+
+Antes de salvar um commit é necessário informar ao Git quais arquivos serão incluídos.
+
+## git add .
+
+Adiciona todos os arquivos modificados.
+
+### Sintaxe
+
+```bash
+git add .
+```
+
+Também é possível adicionar apenas um arquivo:
+
+```bash
+git add index.html
+```
+
+
+
+# Criando um Commit
+
+Commit significa criar uma nova versão do projeto.
+
+## git commit -m
+
+### Sintaxe
+
+```bash
+git commit -m "Primeiro commit"
+```
+
+A mensagem deve ser:
+
+- curta;
+- objetiva;
+- descritiva.
+
+### Bons exemplos
+
+```text
+Primeiro commit
+
+Criada página inicial
+
+Adicionado menu
+
+Corrigido erro no login
+
+Atualizada documentação
+```
+
+
+
+# Fluxo Básico do Git
+
+Sempre siga esta sequência:
+
+```text
+Criar ou modificar arquivos
+            │
+            ▼
+      git status
+            │
+            ▼
+       git add .
+            │
+            ▼
+git commit -m "mensagem"
+```
+
+
+
+# Exemplo Completo
+
+Criando uma pasta:
+
+```bash
+mkdir ProjetoGit
+```
+
+Entrando nela:
+
+```bash
+cd ProjetoGit
+```
+
+Inicializando o Git:
+
+```bash
+git init
+```
+
+Verificando o status:
+
+```bash
+git status
+```
+
+Adicionando arquivos:
+
+```bash
+git add .
+```
+
+Criando um commit:
+
+```bash
+git commit -m "Primeiro commit"
+```
+
+
+
+# Resumo dos Comandos
+
+| Comando | Função |
+|----------|--------|
+| `cd` | Entrar em uma pasta |
+| `ls` | Listar arquivos |
+| `mkdir` | Criar pasta |
+| `git init` | Criar repositório Git |
+| `git status` | Verificar alterações |
+| `git add .` | Preparar arquivos para commit |
+| `git commit -m` | Salvar uma nova versão |
+
+
+

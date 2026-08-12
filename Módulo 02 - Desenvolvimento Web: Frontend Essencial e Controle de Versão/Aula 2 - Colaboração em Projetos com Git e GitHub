@@ -1,0 +1,151 @@
+# Aula 02 - Colaboração em Projetos Git e GitHub
+
+## Abrindo o Terminal
+
+No VS Code:
+
+1. Clique com o botão direito.
+2. Selecione **Git Bash**.
+
+## Configuração Inicial do Git (Feita apenas uma vez)
+
+Antes de começar a salvar projetos, configure seu nome e e-mail para que o GitHub saiba quem é o autor dos commits.
+
+### Definir nome do usuário
+
+```bash
+git config --global user.name "Seu Nome"
+```
+
+Define o nome do usuário.
+
+### Definir e-mail
+
+```bash
+git config --global user.email "seu.email@exemplo.com"
+```
+
+Utilize o mesmo e-mail cadastrado no GitHub.
+
+### Verificar configurações
+
+```bash
+git config --global --list
+```
+
+Exibe todas as configurações salvas.
+
+### Remover configuração
+
+```bash
+git config --global --unset user.name
+```
+
+Remove a configuração do nome para que possa ser cadastrada novamente.
+
+## Criando o Repositório Local
+
+### Inicializar um repositório Git
+
+```bash
+git init
+```
+
+Inicializa a pasta atual como um repositório Git.
+
+Esse comando cria uma pasta oculta chamada:
+
+```text
+.git
+```
+
+Ela armazena todo o histórico de versões (commits) do projeto.
+
+## Fluxo de Trabalho (Commits)
+
+Sempre que criar ou modificar arquivos utilize a sequência abaixo.
+
+### Verificar alterações
+
+```bash
+git status
+```
+
+Mostra:
+
+- Arquivos novos.
+- Arquivos modificados.
+- Arquivos preparados para commit.
+
+Arquivos não rastreados geralmente aparecem em vermelho.
+
+### Adicionar arquivos à área de Stage
+
+Adicionar todos os arquivos:
+
+```bash
+git add .
+```
+
+Adicionar apenas um arquivo:
+
+```bash
+git add <nome_do_arquivo>
+```
+
+Prepara os arquivos para serem salvos no próximo commit.
+
+### Criar um Commit
+
+```bash
+git commit -m "mensagem"
+```
+
+Cria uma nova versão ("save") do projeto.
+
+Exemplo:
+
+```bash
+git commit -m "primeiro commit"
+```
+
+A mensagem deve ser curta e descritiva.
+
+### Renomear a Branch Principal
+
+```bash
+git branch -M main
+```
+
+Renomeia a branch principal de **master** para **main**, padrão utilizado pelo GitHub.
+
+## Conectando ao GitHub
+
+No site do GitHub:
+
+1. Clique em **New**.
+2. Crie um novo repositório.
+3. Para aulas e portfólio, deixe como **Público**.
+4. Não adicione **README** nem **.gitignore**.
+
+Após criar o repositório, copie a URL HTTPS.
+
+### Conectar o repositório local ao GitHub
+
+```bash
+git remote add origin <URL_DO_GITHUB>
+```
+
+Conecta o repositório local ao repositório remoto.
+
+Utilize a URL HTTPS fornecida pelo GitHub.
+
+### Enviar o projeto para o GitHub
+
+```bash
+git push -u origin main
+```
+
+Envia todo o histórico de commits e arquivos para o GitHub.
+
+> Na primeira execução será aberta uma janela do navegador solicitando autorização para acessar sua conta do GitHub.
